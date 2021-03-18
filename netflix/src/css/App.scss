@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 .App-content{
   width: 100%;
@@ -9,4 +10,12 @@
   left: 0;
   top: 0;
   color: white;
+}
+
+nav{
+  .logo{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+  }
+
 }
