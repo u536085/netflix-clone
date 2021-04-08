@@ -15,7 +15,7 @@ class App extends React.Component {
       <BrowserRouter>
         <div class='App-content'>
           <NavBar />
-        
+          <Home />
         </div>
       </BrowserRouter>
     )
