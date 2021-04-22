@@ -6,7 +6,7 @@
   background-color: #141414;
   margin: 0 auto;
   position: absolute;
-  overflow: hidden;
+  overflow: auto;
   left: 0;
   top: 0;
   color: white;
@@ -42,7 +42,7 @@ nav{
     font-weight: 220;
   }
 }
-#img{
+#background{
   height: auto;
   width: 100vw;
 }
@@ -53,4 +53,106 @@ nav{
   width: 2.2%;
   float: right;
   margin-right: 5%;
+}
+
+
+
+#container{
+  p1{
+    font-size: 30px;
+    margin-left: 2%;
+  }
+.bar{
+  position: absolute;
+  width: 100%;
+  height: 290px;
+  margin-top: 8%;
+  .card{
+  background-color: transparent;
+  float: left;
+  height: 290px;
+  width: 12%;
+  margin-left: 2%;
+  .pic{
+  cursor: pointer;
+  border-radius: 10px;
+  height: auto;
+  width: 100%;
+  }
+    }
+  }
+  .play{
+    height: 50px;
+    width: 200px;
+    padding-top: 22%;
+    margin-left: 2%;
+    position: relative;
+    #bttn{
+      cursor: pointer;
+      width: 100%;
+      height: 50px;
+      background-color: white;
+      color: black;
+      font-size: 20px;
+      line-height: 50px;
+      border-radius: 5px;
+      text-align: center;
+    }
+  }
+  .moto{
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    display: block;
+    margin-top: 0%;
+  }
+  .bar2{
+    position: absolute;
+    width: 100%;
+    height: 290px;
+    margin-top: 32%;
+    .card2{
+    background-color: transparent;
+    float: left;
+    height: 290px;
+    width: 12%;
+    margin-left: 2%;
+    .pic2{
+    cursor: pointer;
+    border-radius: 10px;
+    height: auto;
+    width: 100%;
+    }
+      }
+    }
+}
+.play2{
+  height: 50px;
+  width: 200px;
+  margin-left: 250px;
+  position: relative;
+  #bttn2{
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    background-color: #6d6d6e;
+    opacity: 70%;
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    p2{
+      color: white;
+      padding-left: 5px
+    }
+  }
+}
+
+#textcolor{
+  color: white;
+}
+
+#put{
+  text-decoration: none;
 }

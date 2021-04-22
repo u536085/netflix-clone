@@ -16,7 +16,7 @@ const NavBar = () => {
           <li><NavLink class="navlink" to="/series">Series</NavLink></li>
           <li><NavLink class="navlink" to="/films">Films</NavLink></li>
           <li><NavLink class="navlink" to="/newandpopular">Nieuw en populair</NavLink></li>
-          <li><NavLink class="navlink" to="/mylist">Mijn Lijst</NavLink></li>
+          <li><NavLink class="navlink" to="/MyList.jsx">Mijn Lijst</NavLink></li>
         </ul>
       </div>
       <img id="kab" src="kabouter.png" />
